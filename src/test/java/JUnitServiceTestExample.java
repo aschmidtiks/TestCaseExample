@@ -1,15 +1,16 @@
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 import java.util.Iterator;
+
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.mockito.Matchers;
 import org.mockito.Mockito;
-
+import org.mockito.MockitoAnnotations;
 /**
  * The Class JUnitServiceTestExample.
  */
 public class JUnitServiceTestExample {
-
     /**
      * Test1.
      */
